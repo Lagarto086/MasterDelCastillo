@@ -37,6 +37,23 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 576px) {
+  footer {
+    margin-top: 8rem;
+  }
+  footer div #footerFederation {
+    height: 16rem;
+  }
+  footer div #footerTexto {
+    font-size: 2rem;
+  }
+  footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
+    height: 8rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
 .mainBody {
   background-color: #2e2e2e;
   justify-items: center;
@@ -94,8 +111,26 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 }
 
 @media (min-width: 768px) {
+  .mainBody .mainImage {
+    height: 26rem;
+  }
   .mainBody #headerMain .subHeaderMain .mainTitle {
     font-size: 3rem;
+  }
+  .mainBody .botonMain {
+    align-content: center;
+    height: 8rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto {
+    font-size: 2rem;
+  }
+  .mainBody #novedades {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 * {

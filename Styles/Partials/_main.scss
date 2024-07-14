@@ -93,6 +93,10 @@
 
     .mainBody {
 
+        .mainImage {
+            height: 26rem;
+        }
+
         #headerMain {
 
             .subHeaderMain {
@@ -103,5 +107,26 @@
             }
         }
 
+        .botonMain {
+            align-content: center;
+            height: 8rem;
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .federacionContenedor {
+            .federacionSubContenedor {
+                #federacionTexto {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        #novedades {
+            font-size: 3rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
     }
 }

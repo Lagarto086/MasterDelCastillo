@@ -32,5 +32,30 @@ footer {
 
 
 @media (min-width: 576px) {
-    footer {}
+
+    footer {
+        margin-top: 8rem;
+
+        div {
+
+            #footerFederation {
+                height: 16rem;
+            }
+
+            #footerTexto {
+                font-size: 2rem;
+            }
+        }
+
+        #footerRedes {
+            .footerBotonRedes {
+                .footerBotonRedesImg {
+                    height: 8rem;
+                    border-radius: 2rem;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
 }
