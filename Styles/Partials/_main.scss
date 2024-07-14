@@ -1,0 +1,109 @@
+// MOBILE FIRST
+
+.mainBody {
+    background-color: $colorPrimario;
+    justify-items: center;
+
+    .mainImage {
+        @extend %parallax;
+    }
+
+    #headerMain {
+        position: sticky;
+        z-index: 2;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        top: -1px;
+        background-color: $colorPrimario;
+
+        .subHeaderMain {
+
+            .mainTitle {
+                font-size: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                margin-top: 8px;
+                @extend %fuenteTitulo;
+            }
+        }
+    }
+
+    .botonMain {
+        background: linear-gradient(90deg, $colorSecundario 0%, $colorPrimario 45%);
+        border: 2px solid rgb(255, 255, 255);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        color: $colorFuentePrimario;
+        font-size: 20px;
+        font-weight: bold;
+
+        &:hover {
+            background: linear-gradient(90deg, $colorTerceario 0%, rgba(255, 255, 255, 0) 60%);
+            border: 2px solid rgb(255, 255, 255);
+            color: $colorFuenteTerceario;
+        }
+    }
+
+    .federacionContenedor {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+        .federacionSubContenedor {
+            align-items: center;
+
+            #federacionImagen {
+                height: fit-content;
+            }
+
+            #federacionTexto {
+                @extend %fuenteTitulo;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #novedades {
+        @extend %fuenteTitulo;
+        font-size: 2rem;
+    }
+
+    .carousel {
+        height: auto;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+//END MOBILE
+
+
+
+//SMALL TABLET BREAKPOINT 
+
+@media (min-width: 576px) {}
+
+//END SMALL TABLET BREAKPOINT 
+
+
+
+//LARGE TABLET BREAKPOINT 
+
+@media (min-width: 768px) {
+
+    .mainBody {
+
+        #headerMain {
+
+            .subHeaderMain {
+
+                .mainTitle {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+}

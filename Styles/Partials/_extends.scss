@@ -1,0 +1,14 @@
+%parallax {
+    background-image: url(../../Multimedia/Main/mainS.jpg);
+    height: 16rem;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+%fuenteTitulo {
+    color: $colorFuentePrimario;
+    font-weight: bold;
+    text-align: center;
+}

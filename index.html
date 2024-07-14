@@ -4,33 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/style.css">
     <title>Master del Castillo</title>
 </head>
 
-<body>
-    <div> <img src="./Multimedia/Main/mains.jpg">
-        <!-- imagen principal con parallax -->
+<body class="mainBody">
+    <!-- IMAGEN PARALLAX DE INICIO -->
+    <section class="mainImage"></section>
 
+    <!-- HEADER -->
+    <div id="headerMain" class="mw-100 container">
+        <div class="row subHeaderMain">
+            <img id="mainIcon" class="col-4" src="./Multimedia/Icons/LogoJDC3Inverted_noname.png">
+            <p class="mainTitle col-8">Master Javier del Castillo</p>
+        </div>
     </div>
 
-    <header>
+    <!-- BOTONES DE NAVEGACIÓN -->
+    <section class="container">
+        <div class="row">
+            <span id="btnAcerca" class="col-12 botonMain"> Acerca de </span>
+            <span id="btnLogros" class="col-12 botonMain"> Logros </span>
+            <span id="btnGaleria" class="col-12 botonMain"> Galería </span>
+            <span id="btnContacto" class="col-12 botonMain"> Contacto </span>
+        </div>
+    </section>
 
-    </header>
+    <!-- IDENTIFICADOR DE FEDERACIÓN -->
+    <section class="container federacionContenedor">
+        <div class="row federacionSubContenedor">
+            <img id="federacionImagen" class="col-4" src="./Multimedia/Icons/ITF_CHAN_HUN.png" alt="ITF CHAN HUN Logo">
+            <div id="federacionTexto" class="col-8">
+                <p>ITF CHIFT Uruguay</p>
+                <p>CHAN HUN</p>
+                <p>Con Sede en Ottawa, Canada</p>
+            </div>
+        </div>
+    </section>
 
-    <aside> <!-- botones para la navegación -->
-        <span> Acerca de </span>
-        <span> Logros </span>
-        <span> Galería </span>
-        <span> Contacto </span>
-    </aside>
 
-    <article>
-        <h3> Novedades </h3><!-- carrousell para las novedades-->
-    </article>
+    <!-- SECCIÓN DE NOVEDADES (CAROUSELL) -->
+    <p id="novedades">Novedades</p>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://www.instagram.com/p/C5Ev1yURLSm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                    <img src="./Multimedia/Afiches/24.05.jpg" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.instagram.com/p/Cx8yDnGxXzA/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
+                    <img src="./Multimedia/Afiches/23.10.jpg" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a
+                    href="https://www.instagram.com/reel/CxEUjrzsYJB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
+                    <img src="./Multimedia/Afiches/23.09.jpg" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.instagram.com/reel/CpO0J06AYEf/?utm_source=ig_web_copy_link">
+                    <img src="./Multimedia/Afiches/23.05.jpg" class="d-block w-100 " alt="...">
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-    <footer>
-
+    <!-- PIE DE PAGINA -->
+    <footer class="mw-100 container">
+        <div class="row">
+            <img id="footerFederation" class="col-12" src="./Multimedia/Icons/ITF_CHAN_HUN.png"></img>
+            <p id="footerTexto" class="col-12">Sul-Sa, es una Academia de Taekwon-do con Sede en Uruguay, avalada y
+                autorizada por la ITF
+                CHIFT Presidida por
+                S.G.M. Phap Lu
+            </p>
+        </div>
+        <section class="row" id="footerRedes">
+            <a class="col-2 footerBotonRedes" href="https://www.facebook.com/javier.delcastillogimenez"> <img
+                    class="footerBotonRedesImg" src="./Multimedia/Icons/Redes/facebook.png"></a>
+            <a class="col-2 footerBotonRedes" href="https://www.youtube.com/@DELKASULSA"> <img
+                    class="footerBotonRedesImg" src="./Multimedia/Icons/Redes/youtube.png"></a>
+            <a class="col-2 footerBotonRedes" href="https://www.instagram.com/masterdelcastillo_1/"> <img
+                    class="footerBotonRedesImg" src="./Multimedia/Icons/Redes/instagram.png"></a>
+            <a class="col-2 footerBotonRedes"
+                href="https://api.whatsapp.com/send/?phone=59892455751&text&type=phone_number&app_absent=0"> <img
+                    class="footerBotonRedesImg" src="./Multimedia/Icons/Redes/whatsapp.png"></a>
+            <!-- <a class="col-2 footerBotonRedes"> <img class="footerBotonRedesImg"
+                    src="./Multimedia/Icons/Redes/gmail.png"></a> -->
+        </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
