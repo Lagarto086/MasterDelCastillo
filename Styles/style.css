@@ -89,16 +89,13 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   font-size: 2rem;
 }
 .mainBody .carousel {
-  height: auto;
-  width: -moz-fit-content;
-  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 768px) {
   .mainBody #headerMain .subHeaderMain .mainTitle {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 * {
