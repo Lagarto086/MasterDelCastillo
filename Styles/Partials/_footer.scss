@@ -13,10 +13,11 @@ footer {
 
     #footerTexto {
         color: $colorFuenteSecundario;
+        text-align: center;
     }
 
     #footerRedes {
-        justify-content: space-around;
+        text-align: center;
 
         .footerBotonRedes {
 
@@ -30,8 +31,31 @@ footer {
     }
 }
 
+//END MOBILE FIRST
 
-@media (min-width: 576px) {
+
+//LARGE TABLET BREAKPOINT
+@media (min-width: 768px) {
+    footer {
+        #footerTexto {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #footerRedes {
+            .footerBotonRedes {
+                .footerBotonRedesImg {
+                    height: 4rem;
+                }
+            }
+        }
+    }
+}
+
+//END LARGE TABLET BREAKPOINT
+
+//SMALL DESKTOP BREAKPOINT
+@media (min-width: 1200px) {
 
     footer {
         margin-top: 8rem;
@@ -39,16 +63,19 @@ footer {
         div {
 
             #footerFederation {
-                height: 16rem;
+                height: 8re;
             }
 
             #footerTexto {
-                font-size: 2rem;
+                font-size: 24px;
             }
         }
 
         #footerRedes {
+
             .footerBotonRedes {
+                text-align: center;
+
                 .footerBotonRedesImg {
                     height: 8rem;
                     border-radius: 2rem;
@@ -56,6 +83,38 @@ footer {
                     margin-bottom: 3rem;
                 }
             }
+        }
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+    footer {
+
+        #footerFederation {
+            height: 8rem;
+        }
+
+        #footerTexto {
+            font-size: 24px;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        #footerRedes {
+            margin-top: 2rem;
+
+            .footerBotonRedes {
+                .footerBotonRedesImg {
+                    height: 4rem;
+                    border-radius: 1rem;
+
+                }
+            }
+
         }
     }
 }

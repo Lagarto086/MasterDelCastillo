@@ -30,19 +30,25 @@
         }
     }
 
-    .botonMain {
-        background: linear-gradient(90deg, $colorSecundario 0%, $colorPrimario 45%);
-        border: 2px solid rgb(255, 255, 255);
-        padding: 1rem;
-        margin-bottom: 1rem;
-        color: $colorFuentePrimario;
-        font-size: 20px;
-        font-weight: bold;
+    .navegacion {
 
-        &:hover {
-            background: linear-gradient(90deg, $colorTerceario 0%, rgba(255, 255, 255, 0) 60%);
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+
+        .botonMain {
+            background: linear-gradient(90deg, $colorSecundario 0%, $colorPrimario 45%);
             border: 2px solid rgb(255, 255, 255);
-            color: $colorFuenteTerceario;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            color: $colorFuentePrimario;
+            font-size: 20px;
+            font-weight: bold;
+
+            &:hover {
+                background: linear-gradient(90deg, $colorTerceario 0%, rgba(255, 255, 255, 0) 60%);
+                border: 2px solid rgb(255, 255, 255);
+                color: $colorFuenteTerceario;
+            }
         }
     }
 
@@ -132,27 +138,79 @@
     }
 }
 
-//SMALL DESKTOP BREAKPOINT 
+//END LARGE TABLET BREAKPOINT
 
+
+
+//SMALL DESKTOP BREAKPOINT 
 @media (min-width: 1200px) {
 
     .mainBody {
+
+        #grilla {
+            display: grid;
+            grid-template-areas:
+                "navegacion federacionContenedor";
+            grid-template-columns: 37% 63%;
+
+        }
+
         .navegacion {
+            grid-area: navegacion;
+            background-color: $colorPrimario;
+
             .subNavegacion {
+                padding-left: 1rem;
                 justify-content: space-between;
 
-                #btnAcerca,
-                #btnGaleria {
-                    margin-left: 1rem;
-                }
-
-                #btnLogros,
-                #btnContacto {
-                    margin-right: 1rem;
+                .botonMain {
+                    height: 4rem;
+                    padding: 1rem;
+                    margin-bottom: 0px;
                 }
             }
         }
 
+        .federacionContenedor {
+            margin-top: auto;
+            margin-bottom: auto;
 
+            .federacionSubContenedor {
+                #federacionImagen {
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 10rem;
+                    width: auto;
+                }
+
+                #federacionTexto {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        #novedades {
+            font-size: 2rem;
+        }
+
+        .carousel {
+            margin-left: auto;
+            width: 40%;
+        }
+    }
+}
+
+//END SMALL DESKTOP BREAKPOINT
+
+
+
+//LARGE DESKTOP BREAKPOINT
+@media (min-width: 1400px) {
+    .mainBody {
+        .mainImage {
+            @extend %parallax;
+            padding-bottom: 40rem;
+
+        }
     }
 }
