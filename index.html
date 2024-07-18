@@ -29,7 +29,7 @@
     <main id="grilla">
         <section class="container mw-100 navegacion">
             <div class="row subNavegacion">
-                <span id="btnAcerca" class="col-12 botonMain"> Acerca de Javier del Castillo</span>
+                <span id="btnAcerca" class="col-12 botonMain"> Acerca de</span>
                 <span id="btnLogros" class="col-12 botonMain"> Logros </span>
                 <span id="btnGaleria" class="col-12 botonMain"> Galería </span>
                 <span id="btnContacto" class="col-12 botonMain"> Contacto </span>
@@ -37,11 +37,11 @@
         </section>
 
         <!-- IDENTIFICADOR DE FEDERACIÓN -->
-        <section class="container federacionContenedor">
+        <section class="container mw-100 federacionContenedor">
             <div class="row federacionSubContenedor">
-                <img id="federacionImagen" class="col-4 col-md-5" src="./Multimedia/Icons/ITF_CHAN_HUN.png"
+                <img id="federacionImagen" class="col-4 col-md-5 col-xl-12" src="./Multimedia/Icons/ITF_CHAN_HUN.png"
                     alt="ITF CHAN HUN Logo">
-                <div id="federacionTexto" class="col-8 col-md-7">
+                <div id="federacionTexto" class="col-8 col-md-7 col-xl-12">
                     <p>ITF CHIFT Uruguay</p>
                     <p>CHAN HUN</p>
                     <p>Con Sede en Ottawa, Canada</p>
@@ -51,42 +51,46 @@
     </main>
 
     <!-- SECCIÓN DE NOVEDADES (CAROUSELL) -->
-    <p id="novedades">Novedades</p>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="https://www.instagram.com/p/C5Ev1yURLSm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
-                    <img src="./Multimedia/Afiches/24.05.jpg" class="d-block w-100" alt="...">
-                </a>
+    <section id="bloqueNovedades">
+        <p id="novedades">Novedades</p>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a
+                        href="https://www.instagram.com/p/C5Ev1yURLSm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                        <img src="./Multimedia/Afiches/24.05.jpg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a
+                        href="https://www.instagram.com/p/Cx8yDnGxXzA/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
+                        <img src="./Multimedia/Afiches/23.10.jpg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a
+                        href="https://www.instagram.com/reel/CxEUjrzsYJB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
+                        <img src="./Multimedia/Afiches/23.09.jpg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.instagram.com/reel/CpO0J06AYEf/?utm_source=ig_web_copy_link">
+                        <img src="./Multimedia/Afiches/23.05.jpg" class="d-block w-100 " alt="...">
+                    </a>
+                </div>
             </div>
-            <div class="carousel-item">
-                <a href="https://www.instagram.com/p/Cx8yDnGxXzA/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
-                    <img src="./Multimedia/Afiches/23.10.jpg" class="d-block w-100" alt="...">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a
-                    href="https://www.instagram.com/reel/CxEUjrzsYJB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
-                    <img src="./Multimedia/Afiches/23.09.jpg" class="d-block w-100" alt="...">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="https://www.instagram.com/reel/CpO0J06AYEf/?utm_source=ig_web_copy_link">
-                    <img src="./Multimedia/Afiches/23.05.jpg" class="d-block w-100 " alt="...">
-                </a>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </section>
 
     <!-- PIE DE PAGINA -->
     <footer class="mw-100 container">

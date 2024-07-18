@@ -14,6 +14,7 @@ footer {
     #footerTexto {
         color: $colorFuenteSecundario;
         text-align: center;
+        margin: auto
     }
 
     #footerRedes {
@@ -77,8 +78,8 @@ footer {
                 text-align: center;
 
                 .footerBotonRedesImg {
-                    height: 8rem;
-                    border-radius: 2rem;
+                    height: 4rem;
+                    border-radius: 1rem;
                     margin-top: 3rem;
                     margin-bottom: 3rem;
                 }
@@ -87,21 +88,24 @@ footer {
     }
 }
 
+//END SMALL DESKTOP BREAKPOINT
 
 
-@media (min-width: 1200px) {
+
+//LARGE DESKTOP BREAKPOINT
+@media (min-width: 1400px) {
 
     footer {
+        padding-top: 3rem;
 
         #footerFederation {
-            height: 8rem;
+            height: 12rem;
+            margin: auto;
         }
 
         #footerTexto {
             font-size: 24px;
             text-align: center;
-            margin-top: auto;
-            margin-bottom: auto;
         }
 
         #footerRedes {
@@ -111,10 +115,8 @@ footer {
                 .footerBotonRedesImg {
                     height: 4rem;
                     border-radius: 1rem;
-
                 }
             }
-
         }
     }
 }

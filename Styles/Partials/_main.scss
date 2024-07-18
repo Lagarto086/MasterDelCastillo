@@ -31,29 +31,30 @@
     }
 
     .navegacion {
-
         padding-top: 1rem;
         padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
         .botonMain {
             background: linear-gradient(90deg, $colorSecundario 0%, $colorPrimario 45%);
-            border: 2px solid rgb(255, 255, 255);
+            @extend %bordeBoton;
             padding: 1rem;
             margin-bottom: 1rem;
             color: $colorFuentePrimario;
             font-size: 20px;
             font-weight: bold;
+            border-radius: 1rem;
 
             &:hover {
                 background: linear-gradient(90deg, $colorTerceario 0%, rgba(255, 255, 255, 0) 60%);
-                border: 2px solid rgb(255, 255, 255);
                 color: $colorFuenteTerceario;
             }
         }
     }
 
     .federacionContenedor {
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-bottom: 4rem;
 
         .federacionSubContenedor {
@@ -70,15 +71,22 @@
         }
     }
 
-    #novedades {
-        @extend %fuenteTitulo;
-        font-size: 2rem;
-    }
+    #bloqueNovedades {
+        background: linear-gradient(90deg, $colorSecundario 0%, $colorTerceario 45%, $colorSecundario 100%);
+        ;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
 
-    .carousel {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 2rem;
+        #novedades {
+            @extend %fuenteTitulo;
+            font-size: 2rem;
+        }
+
+        .carousel {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+        }
     }
 }
 
@@ -147,6 +155,10 @@
 
     .mainBody {
 
+        .mainImage {
+            padding-bottom: 36rem;
+        }
+
         #grilla {
             display: grid;
             grid-template-areas:
@@ -179,8 +191,9 @@
                 #federacionImagen {
                     margin-left: auto;
                     margin-right: auto;
-                    height: 10rem;
+                    height: 20rem;
                     width: auto;
+                    margin-bottom: 2rem;
                 }
 
                 #federacionTexto {
@@ -210,7 +223,58 @@
         .mainImage {
             @extend %parallax;
             padding-bottom: 40rem;
+        }
 
+        #headerMain {
+            .subHeaderMain {
+
+                justify-content: space-around;
+                padding-top: 3rem;
+                padding-bottom: 0rem;
+
+                #mainIcon {
+                    height: 15rem;
+                    width: auto;
+                }
+
+                .mainTitle {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        #grilla {
+            margin-bottom: 5rem;
+
+            .navegacion {
+                .subNavegacion {
+                    .botonMain {
+                        height: auto;
+                        padding: 1rem;
+                        margin-bottom: 2rem;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        padding-left: 4rem;
+                        border-radius: 2rem;
+                    }
+                }
+            }
+
+            .federacionContenedor {
+                .federacionSubContenedor {
+                    #federacionTexto {
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+
+        #novedades {
+            font-size: 4rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
         }
     }
 }
