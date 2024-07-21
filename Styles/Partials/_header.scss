@@ -1,0 +1,64 @@
+//MOBILE FIRST 
+.navbar {
+    .navbar-brand {
+        .navbar-imagen {
+            height: 4rem;
+        }
+    }
+}
+
+//END MOBILE FIRST
+
+
+
+//SMALL TABLET BREAKPOINT
+@media (min-width: 576px) {
+
+    .navbar {
+        .navbar-brand {
+            font-size: 3rem;
+
+            .navbar-imagen {
+                height: 6rem;
+            }
+        }
+    }
+}
+
+//END SMALL TABLET BREAKPOINT
+
+
+
+//SMALL DESKTOP BREAKPOINT
+@media (min-width: 1200px) {
+    .navbar {
+        justify-content: space-around;
+
+        .navbar-brand {
+            font-size: 3rem;
+
+            .navbar-imagen {
+                height: 8rem;
+            }
+        }
+
+        .collapse {
+            justify-content: end;
+
+            .navbar-nav {
+                .nav-item {
+                    margin-right: 2rem;
+                    font-size: 2rem;
+
+                    .nav-link {
+                        color: $colorFuentePrimario;
+                    }
+
+                    .nav-link-activo {
+                        color: $colorFuenteSecundario;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -19,3 +19,10 @@
     border-left: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
 }
+
+%formatoParrafo {
+    text-align: justify;
+    text-indent: 3rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}

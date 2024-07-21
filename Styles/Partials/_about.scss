@@ -1,0 +1,238 @@
+//MOBILE FIRST
+#acercaMain {
+    color: $colorFuentePrimario;
+    background-color: $colorPrimario;
+
+    #textoAcercaDe {
+        margin-top: 5rem;
+        padding: 1rem;
+
+        .introduccion {
+            background-color: $colorTerceario;
+            border-radius: 1rem;
+
+            #introduccionTexto {
+                @extend %formatoParrafo;
+            }
+        }
+
+        .acercaJavier {
+            .acercaImagen {
+                width: 100%;
+                margin-bottom: 2rem;
+                border-radius: 1rem;
+            }
+
+            .acercaTexto {
+                @extend %formatoParrafo
+            }
+        }
+    }
+
+
+    .subtituloTipoUno {
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .subtituloTipoDos {
+        text-align: start;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    #academiasSection {
+
+        .card {
+            margin-top: 4rem;
+            border-radius: 1rem;
+            background-color: $colorTerceario;
+            height: auto;
+            width: 100%;
+
+            .cardImagen {
+                border-radius: 1rem 1rem 0rem 0rem;
+                padding: 2rem;
+                background-color: $colorCuaternario;
+            }
+        }
+
+        .tituloAcademia {
+            font-size: 24px;
+            text-align: center;
+            color: $colorFuentePrimario;
+            font-weight: bolder;
+        }
+
+        .instructorAcademia {
+            text-align: center;
+            font-size: 20px;
+            color: $colorFuentePrimario;
+            font-weight: bold;
+        }
+
+        .cardRedes {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            .cardSubRedes {
+                justify-content: space-around;
+
+                .cardLinkRedes {
+                    text-align: center;
+
+                    .cardLogoRedes {
+                        height: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .accordion-item {
+        border-radius: 1rem 1rem 0 0;
+        color: $colorFuentePrimario;
+
+        .accordion-button {
+            background: linear-gradient(90deg, $colorPrimario 0%, $colorCuaternario 100%);
+            border-radius: 1rem 1rem 0 0;
+            font-size: 20px;
+            font-weight: bolder;
+            color: $colorFuentePrimario;
+        }
+    }
+
+    .contenedorLogros {
+        background-color: $colorTerceario;
+        border-radius: 1rem;
+        margin-top: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        #logrosTexto {
+            @extend %formatoParrafo
+        }
+
+        .contenedorLogrosCompetidor,
+        .contenedorLogrosEntrenador {
+            padding-top: 1rem;
+            border-radius: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .logrosIcono {
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 3rem;
+        width: auto
+    }
+
+    hr {
+        color: $colorSecundario;
+    }
+
+    .eventoNombre {
+        color: $colorFuenteTerceario;
+        text-align: center;
+    }
+}
+
+//END MOBILE FIRST
+
+
+
+//SMALL TABLET BREAKPOINT
+
+@media (min-width: 768px) {
+    #acercaMain {
+        margin-top: 6rem;
+
+        #textoAcercaDe {
+            .introduccion {
+                padding: 1rem;
+
+                #introduccionTexto {
+                    font-size: 24px;
+                }
+            }
+
+            .acercaJavier {
+                .subtituloTipoUno {
+                    font-size: 3rem;
+                }
+
+                .acercaImagen {
+                    height: 50rem;
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .subtituloTipoDos {
+                    font-size: 2rem;
+                }
+
+                .acercaTexto {
+                    font-size: 24px;
+                }
+
+                .acercaImagenTexto {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+
+        .contenedorLogros {
+            .subtituloTipoUno {
+                font-size: 3rem;
+            }
+
+            #logrosTexto {
+                font-size: 24px;
+            }
+
+            .accordion-item {
+                .accordion-header {
+                    .accordion-button {
+                        height: 6rem;
+                        font-size: 24px;
+                    }
+                }
+
+                .evento {
+                    justify-content: space-around;
+
+                    .eventoNombre {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        #academiasSection {
+            margin-top: 5rem;
+            padding: 0;
+            justify-content: space-around;
+
+            .card {
+                width: 45%;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                padding: 0px;
+
+                .cardImagen {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 20rem;
+
+                }
+            }
+
+        }
+
+
+    }
+}

@@ -31,12 +31,14 @@
     }
 
     .navegacion {
+
         padding-top: 1rem;
         padding-bottom: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
 
         .botonMain {
+            text-decoration: none;
             background: linear-gradient(90deg, $colorSecundario 0%, $colorPrimario 45%);
             @extend %bordeBoton;
             padding: 1rem;
@@ -95,9 +97,7 @@
 
 
 //SMALL TABLET BREAKPOINT 
-
 @media (min-width: 576px) {}
-
 //END SMALL TABLET BREAKPOINT 
 
 

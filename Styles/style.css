@@ -20,8 +20,52 @@
   border-right: 2px solid rgb(255, 255, 255);
 }
 
+#acercaMain .contenedorLogros #logrosTexto, #acercaMain #textoAcercaDe .acercaJavier .acercaTexto, #acercaMain #textoAcercaDe .introduccion #introduccionTexto {
+  text-align: justify;
+  text-indent: 3rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.navbar .navbar-brand .navbar-imagen {
+  height: 4rem;
+}
+
+@media (min-width: 576px) {
+  .navbar .navbar-brand {
+    font-size: 3rem;
+  }
+  .navbar .navbar-brand .navbar-imagen {
+    height: 6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navbar .navbar-brand {
+    font-size: 3rem;
+  }
+  .navbar .navbar-brand .navbar-imagen {
+    height: 8rem;
+  }
+  .navbar .collapse {
+    justify-content: end;
+  }
+  .navbar .collapse .navbar-nav .nav-item {
+    margin-right: 2rem;
+    font-size: 2rem;
+  }
+  .navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: #eeeeee;
+  }
+  .navbar .collapse .navbar-nav .nav-item .nav-link-activo {
+    color: #b4b4b4;
+  }
+}
 footer {
   background-color: #151515;
+  margin-top: 2rem;
 }
 footer #footerFederation {
   height: 8rem;
@@ -60,7 +104,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     margin-top: 8rem;
   }
   footer div #footerFederation {
-    height: 8re;
+    height: 8rem;
   }
   footer div #footerTexto {
     font-size: 24px;
@@ -122,6 +166,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   padding-right: 2rem;
 }
 .mainBody .navegacion .botonMain {
+  text-decoration: none;
   background: linear-gradient(90deg, #151515 0%, #2e2e2e 45%);
   padding: 1rem;
   margin-bottom: 1rem;
@@ -131,7 +176,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   border-radius: 1rem;
 }
 .mainBody .navegacion .botonMain:hover {
-  background: linear-gradient(90deg, #888888 0%, rgba(255, 255, 255, 0) 60%);
+  background: linear-gradient(90deg, #545454 0%, rgba(255, 255, 255, 0) 60%);
   color: #151515;
 }
 .mainBody .federacionContenedor {
@@ -149,7 +194,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   font-size: 1rem;
 }
 .mainBody #bloqueNovedades {
-  background: linear-gradient(90deg, #151515 0%, #888888 45%, #151515 100%);
+  background: linear-gradient(90deg, #151515 0%, #545454 45%, #151515 100%);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -266,6 +311,170 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     font-size: 4rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+  }
+}
+#acercaMain {
+  color: #eeeeee;
+  background-color: #2e2e2e;
+}
+#acercaMain #textoAcercaDe {
+  margin-top: 5rem;
+  padding: 1rem;
+}
+#acercaMain #textoAcercaDe .introduccion {
+  background-color: #545454;
+  border-radius: 1rem;
+}
+#acercaMain #textoAcercaDe .acercaJavier .acercaImagen {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+#acercaMain .subtituloTipoUno {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+#acercaMain .subtituloTipoDos {
+  text-align: start;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+#acercaMain #academiasSection .card {
+  margin-top: 4rem;
+  border-radius: 1rem;
+  background-color: #545454;
+  height: auto;
+  width: 100%;
+}
+#acercaMain #academiasSection .card .cardImagen {
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 2rem;
+  background-color: #bbbbbb;
+}
+#acercaMain #academiasSection .tituloAcademia {
+  font-size: 24px;
+  text-align: center;
+  color: #eeeeee;
+  font-weight: bolder;
+}
+#acercaMain #academiasSection .instructorAcademia {
+  text-align: center;
+  font-size: 20px;
+  color: #eeeeee;
+  font-weight: bold;
+}
+#acercaMain #academiasSection .cardRedes {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#acercaMain #academiasSection .cardRedes .cardSubRedes {
+  justify-content: space-around;
+}
+#acercaMain #academiasSection .cardRedes .cardSubRedes .cardLinkRedes {
+  text-align: center;
+}
+#acercaMain #academiasSection .cardRedes .cardSubRedes .cardLinkRedes .cardLogoRedes {
+  height: 3rem;
+}
+#acercaMain .accordion-item {
+  border-radius: 1rem 1rem 0 0;
+  color: #eeeeee;
+}
+#acercaMain .accordion-item .accordion-button {
+  background: linear-gradient(90deg, #2e2e2e 0%, #bbbbbb 100%);
+  border-radius: 1rem 1rem 0 0;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #eeeeee;
+}
+#acercaMain .contenedorLogros {
+  background-color: #545454;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#acercaMain .contenedorLogros .contenedorLogrosCompetidor,
+#acercaMain .contenedorLogros .contenedorLogrosEntrenador {
+  padding-top: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+#acercaMain .logrosIcono {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 3rem;
+  width: auto;
+}
+#acercaMain hr {
+  color: #151515;
+}
+#acercaMain .eventoNombre {
+  color: #151515;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #acercaMain {
+    margin-top: 6rem;
+  }
+  #acercaMain #textoAcercaDe .introduccion {
+    padding: 1rem;
+  }
+  #acercaMain #textoAcercaDe .introduccion #introduccionTexto {
+    font-size: 24px;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .subtituloTipoUno {
+    font-size: 3rem;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .acercaImagen {
+    height: 50rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .subtituloTipoDos {
+    font-size: 2rem;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .acercaTexto {
+    font-size: 24px;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .acercaImagenTexto {
+    height: auto;
+    width: 100%;
+  }
+  #acercaMain .contenedorLogros .subtituloTipoUno {
+    font-size: 3rem;
+  }
+  #acercaMain .contenedorLogros #logrosTexto {
+    font-size: 24px;
+  }
+  #acercaMain .contenedorLogros .accordion-item .accordion-header .accordion-button {
+    height: 6rem;
+    font-size: 24px;
+  }
+  #acercaMain .contenedorLogros .accordion-item .evento {
+    justify-content: space-around;
+  }
+  #acercaMain .contenedorLogros .accordion-item .evento .eventoNombre {
+    font-size: 20px;
+  }
+  #acercaMain #academiasSection {
+    margin-top: 5rem;
+    padding: 0;
+    justify-content: space-around;
+  }
+  #acercaMain #academiasSection .card {
+    width: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0px;
+  }
+  #acercaMain #academiasSection .card .cardImagen {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
   }
 }
 * {
