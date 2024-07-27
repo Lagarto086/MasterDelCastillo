@@ -1,0 +1,47 @@
+[33mcommit cf4f2479a9d1da28a45d833b250460cb9c6ac209[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mabout[m[33m)[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Sun Jul 21 12:24:59 2024 -0300
+
+    se terminó con el breakpoint 02
+
+[33mcommit dc379345bde1bb087950379518eb9af66e43357d[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m, [m[1;32mindex[m[33m)[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Thu Jul 18 17:23:49 2024 -0300
+
+    finalizado el index
+
+[33mcommit acf4474a4a24cf00498901b4d0162a3ccd5917de[m[33m ([m[1;31morigin/index[m[33m, [m[1;32mSmallDesktopV[m[33m)[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Thu Jul 18 13:07:02 2024 -0300
+
+    finalizado el inicio y los 4 breakpoints
+
+[33mcommit 2009a0ddc523e8c523acac2a93a32f6dff73ab66[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Tue Jul 16 23:03:19 2024 -0300
+
+    iniciada versión desktop, falta desde federacionContenedor
+
+[33mcommit bbfcae0f532754207709db73c0bab3c5fb5d9633[m[33m ([m[1;32mtabletVersion[m[33m)[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Sun Jul 14 11:38:57 2024 -0300
+
+    se termino con la version de tablet del index
+
+[33mcommit afb95221ba468e83f90a85cb02c99847cd047ce9[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Sun Jul 14 11:21:53 2024 -0300
+
+    version tablet iniciada
+
+[33mcommit 84877e75188340a506b74e80753e46549b8f73af[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Sun Jul 14 11:14:25 2024 -0300
+
+    index completo, mobile css completo
+
+[33mcommit 9f43d42ada08b7f8d3a865735503892d94a4215f[m
+Author: Lagarto086 <mfgc67@gmail.com>
+Date:   Sun Jul 7 00:37:52 2024 -0300
+
+    primera maqueta

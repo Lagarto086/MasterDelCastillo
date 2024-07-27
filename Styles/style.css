@@ -63,6 +63,14 @@
     color: #b4b4b4;
   }
 }
+@media (min-width: 1400px) {
+  .navbar .navbar-brand {
+    font-size: 4rem;
+  }
+  .navbar .navbar-brand .navbar-imagen {
+    height: 8rem;
+  }
+}
 footer {
   background-color: #151515;
   margin-top: 2rem;
@@ -177,7 +185,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 }
 .mainBody .navegacion .botonMain:hover {
   background: linear-gradient(90deg, #545454 0%, rgba(255, 255, 255, 0) 60%);
-  color: #151515;
+  color: #383838;
 }
 .mainBody .federacionContenedor {
   margin-top: 2rem;
@@ -350,18 +358,20 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 #acercaMain #academiasSection .card .cardImagen {
   border-radius: 1rem 1rem 0rem 0rem;
   padding: 2rem;
+}
+#acercaMain #academiasSection .card .cardText {
   background-color: #bbbbbb;
 }
 #acercaMain #academiasSection .tituloAcademia {
   font-size: 24px;
   text-align: center;
-  color: #eeeeee;
+  color: #383838;
   font-weight: bolder;
 }
 #acercaMain #academiasSection .instructorAcademia {
   text-align: center;
   font-size: 20px;
-  color: #eeeeee;
+  color: #383838;
   font-weight: bold;
 }
 #acercaMain #academiasSection .cardRedes {
@@ -380,6 +390,9 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 #acercaMain .accordion-item {
   border-radius: 1rem 1rem 0 0;
   color: #eeeeee;
+}
+#acercaMain .accordion-item .linkItemAcordion {
+  text-decoration: none;
 }
 #acercaMain .accordion-item .accordion-button {
   background: linear-gradient(90deg, #2e2e2e 0%, #bbbbbb 100%);
@@ -411,7 +424,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   color: #151515;
 }
 #acercaMain .eventoNombre {
-  color: #151515;
+  color: #383838;
   text-align: center;
 }
 
@@ -475,6 +488,67 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     margin-left: auto;
     margin-right: auto;
     width: 20rem;
+  }
+}
+@media (min-width: 1400px) {
+  #acercaMain #textoAcercaDe .introduccion {
+    margin-top: 4rem;
+  }
+  #acercaMain #textoAcercaDe .introduccion #introduccionTexto {
+    font-size: 2rem;
+  }
+  #acercaMain #textoAcercaDe .acercaImagenTexto {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  #acercaMain #textoAcercaDe .subtituloTipoUno {
+    font-size: 5rem;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .subtituloTipoUno {
+    font-size: 5rem;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .subtituloTipoDos {
+    font-size: 4rem;
+  }
+  #acercaMain #textoAcercaDe .acercaJavier .acercaTexto {
+    font-size: 2rem;
+  }
+  #acercaMain .contenedorLogros .subtituloTipoUno {
+    font-size: 4rem;
+  }
+  #acercaMain .contenedorLogros #logrosTexto {
+    font-size: 2rem;
+  }
+  #acercaMain .contenedorLogros .accordion-item .linkItemAcordion .accordion-button {
+    font-size: 3rem;
+  }
+  #acercaMain .contenedorLogrosCompetidor .evento .eventoTexto .eventoNombre,
+  #acercaMain .contenedorLogrosEntrenador .evento .eventoTexto .eventoNombre {
+    font-size: 2rem;
+  }
+  #acercaMain .contenedorLogrosCompetidor .evento .logrosIcono,
+  #acercaMain .contenedorLogrosEntrenador .evento .logrosIcono {
+    height: 5rem;
+  }
+  #acercaMain #academiasDiv #academiasSection .subtituloTipoUno {
+    font-size: 5rem;
+  }
+  #acercaMain #academiasDiv #academiasSection .card .cardImagen {
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+  #acercaMain #academiasDiv #academiasSection .card .cardText {
+    height: 20rem;
+  }
+  #acercaMain #academiasDiv #academiasSection .card .tituloAcademia {
+    font-size: 2rem;
+  }
+  #acercaMain #academiasDiv #academiasSection .card .instructorAcademia,
+  #acercaMain #academiasDiv #academiasSection .card .ubicacionAcademia {
+    font-size: 24px;
+  }
+  #acercaMain #academiasDiv #academiasSection .card .cardRedes .cardSubRedes .cardLogoRedes {
+    height: 5rem;
   }
 }
 * {

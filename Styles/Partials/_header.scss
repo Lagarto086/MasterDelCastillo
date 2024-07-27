@@ -62,3 +62,21 @@
         }
     }
 }
+
+//END SMALL DESKTOP BREAKPOINT 
+
+
+
+//LARGE DESKTOP BREAKPOINT
+@media (min-width: 1400px) {
+    .navbar {
+        .navbar-brand {
+            font-size: 4rem;
+
+            .navbar-imagen {
+                height: 8rem;
+
+            }
+        }
+    }
+}
