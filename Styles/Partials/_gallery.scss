@@ -1,0 +1,88 @@
+//MOBILE FIRST
+#galleryMain {
+    color: $colorFuentePrimario;
+    background-color: $colorPrimario;
+
+    .sectorGaleria {
+        margin-top: 4rem;
+        padding: 1rem;
+
+        .sectorGaleriaTexto {
+            .sectorGaleriaTextoLink {
+                text-decoration: none;
+                color: $colorFuentePrimario;
+                font-size: 24px;
+                @extend %fuenteTitulo;
+            }
+
+            .sectorGaleriaTextoParrafo {
+                text-indent: 2rem;
+                margin-top: 2rem;
+                text-align: justify;
+            }
+        }
+
+        .sectorGaleriaImagenLink {
+            width: 100%;
+        }
+    }
+}
+
+#galleryClasesMain,
+#galleryCompeticionMain {
+    margin-top: 8rem;
+    background-color: $colorPrimario;
+
+    .galeriaContenedor {
+        background-size: 100%;
+        margin-top: 8rem;
+
+        .galeriaTitulo {
+            color: $colorFuentePrimario;
+            background-color: $colorPrimarioTransparent;
+            text-align: center;
+        }
+
+        .botonGaleria {
+            background-color: $colorTerceario;
+            border-bottom: 5px solid $colorSecundario;
+            border-right: 5px solid $colorSecundario;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            color: $colorFuentePrimario;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    .galeriaContenedor {
+        background-size: 100%;
+        margin-top: 4rem;
+        padding-top: 10rem;
+
+    }
+
+    .sectorClasesGaleriaUno {
+        background-image: url("../../Multimedia/Gallery/Galería1/main.jpg");
+        margin-top: 8rem;
+    }
+
+    .sectorClasesGaleriaDos {
+        background-image: url("../../Multimedia/Gallery/Galería2/main.jpg");
+    }
+
+    .sectorCompeticionGaleriaUno {
+        background-image: url("../../Multimedia/Gallery/Galería3/2.jpg");
+    }
+
+    .sectorCompeticionGaleriaDos {
+        background-image: url("../../Multimedia/Gallery/Galería4/1.jpg");
+    }
+
+    .sectorCompeticionGaleriaTres {
+        background-image: url("../../Multimedia/Gallery/Galería5/main.jpg");
+    }
+}

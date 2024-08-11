@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .mainBody .mainImage {
   background-image: url(../../Multimedia/Main/mainS.jpg);
   height: 16rem;
@@ -7,7 +8,7 @@
   background-size: 100%;
 }
 
-.mainBody #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
+#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoLink, .mainBody #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
   color: #eeeeee;
   font-weight: bold;
   text-align: center;
@@ -338,6 +339,22 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
+#acercaMain #textoAcercaDe .acercaJavier .contenedorBtnLenguaje {
+  justify-content: space-around;
+}
+#acercaMain #textoAcercaDe .acercaJavier .contenedorBtnLenguaje .btnLenguaje {
+  background-color: #545454;
+  color: #eeeeee;
+  border-radius: 1rem;
+  border-bottom: 8px solid #151515;
+  border-right: 8px solid #151515;
+  height: 4rem;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 #acercaMain .subtituloTipoUno {
   text-align: center;
   margin-bottom: 2rem;
@@ -400,6 +417,11 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   font-size: 20px;
   font-weight: bolder;
   color: #eeeeee;
+}
+#acercaMain .videoYT {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 #acercaMain .contenedorLogros {
   background-color: #545454;
@@ -551,6 +573,109 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     height: 5rem;
   }
 }
+#galleryMain {
+  color: #eeeeee;
+  background-color: #2e2e2e;
+}
+#galleryMain .sectorGaleria {
+  margin-top: 4rem;
+  padding: 1rem;
+}
+#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoLink {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 24px;
+}
+#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoParrafo {
+  text-indent: 2rem;
+  margin-top: 2rem;
+  text-align: justify;
+}
+#galleryMain .sectorGaleria .sectorGaleriaImagenLink {
+  width: 100%;
+}
+
+#galleryClasesMain,
+#galleryCompeticionMain {
+  margin-top: 8rem;
+  background-color: #2e2e2e;
+}
+#galleryClasesMain .galeriaContenedor,
+#galleryCompeticionMain .galeriaContenedor {
+  background-size: 100%;
+  margin-top: 8rem;
+}
+#galleryClasesMain .galeriaContenedor .galeriaTitulo,
+#galleryCompeticionMain .galeriaContenedor .galeriaTitulo {
+  color: #eeeeee;
+  background-color: rgba(46, 46, 46, 0.5215686275);
+  text-align: center;
+}
+#galleryClasesMain .galeriaContenedor .botonGaleria,
+#galleryCompeticionMain .galeriaContenedor .botonGaleria {
+  background-color: #545454;
+  border-bottom: 5px solid #151515;
+  border-right: 5px solid #151515;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: #eeeeee;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#galleryClasesMain .galeriaContenedor,
+#galleryCompeticionMain .galeriaContenedor {
+  background-size: 100%;
+  margin-top: 4rem;
+  padding-top: 10rem;
+}
+#galleryClasesMain .sectorClasesGaleriaUno,
+#galleryCompeticionMain .sectorClasesGaleriaUno {
+  background-image: url("../../Multimedia/Gallery/Galería1/main.jpg");
+  margin-top: 8rem;
+}
+#galleryClasesMain .sectorClasesGaleriaDos,
+#galleryCompeticionMain .sectorClasesGaleriaDos {
+  background-image: url("../../Multimedia/Gallery/Galería2/main.jpg");
+}
+#galleryClasesMain .sectorCompeticionGaleriaUno,
+#galleryCompeticionMain .sectorCompeticionGaleriaUno {
+  background-image: url("../../Multimedia/Gallery/Galería3/2.jpg");
+}
+#galleryClasesMain .sectorCompeticionGaleriaDos,
+#galleryCompeticionMain .sectorCompeticionGaleriaDos {
+  background-image: url("../../Multimedia/Gallery/Galería4/1.jpg");
+}
+#galleryClasesMain .sectorCompeticionGaleriaTres,
+#galleryCompeticionMain .sectorCompeticionGaleriaTres {
+  background-image: url("../../Multimedia/Gallery/Galería5/main.jpg");
+}
+
+#contactMain {
+  color: #eeeeee;
+  background-color: #2e2e2e;
+}
+#contactMain .contactBody {
+  margin-top: 8rem;
+}
+#contactMain .contactBody .tituloPrimario {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#contactMain .contactBody .datos {
+  margin-top: 4rem;
+  text-align: start;
+}
+#contactMain .contactBody .datos .subTitulo {
+  margin-top: 2rem;
+  text-align: start;
+  font-size: 1rem;
+}
+#contactMain .contactBody .datos .subDato {
+  text-align: end;
+}
+
 * {
   margin: 0;
   padding: 0;

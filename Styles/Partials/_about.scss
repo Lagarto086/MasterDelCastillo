@@ -26,9 +26,29 @@
             .acercaTexto {
                 @extend %formatoParrafo
             }
+
+            .contenedorBtnLenguaje {
+
+                justify-content: space-around;
+
+                .btnLenguaje {
+                    background-color: $colorTerceario;
+                    color: $colorFuentePrimario;
+                    border-radius: 1rem;
+                    border-bottom: 8px solid $colorSecundario;
+                    border-right: 8px solid $colorSecundario;
+                    height: 4rem;
+                    margin: auto;
+                    text-decoration: none;
+                    text-align: center;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+
+                    .btnLenguajeTexto {}
+                }
+            }
         }
     }
-
 
     .subtituloTipoUno {
         text-align: center;
@@ -109,6 +129,12 @@
             font-weight: bolder;
             color: $colorFuentePrimario;
         }
+    }
+
+    .videoYT {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contenedorLogros {

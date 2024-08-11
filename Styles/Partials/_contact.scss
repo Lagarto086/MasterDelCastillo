@@ -1,0 +1,35 @@
+//MOBILE FIRST
+#contactMain {
+    color: $colorFuentePrimario;
+    background-color: $colorPrimario;
+
+    .contactBody {
+        margin-top: 8rem;
+
+        .tituloPrimario {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .mapaContainer {
+            .mapa {}
+        }
+
+        .datos {
+            margin-top: 4rem;
+            text-align: start;
+
+            .subTitulo {
+                margin-top: 2rem;
+                text-align: start;
+                font-size: 1rem;
+            }
+
+            .subDato {
+                text-align: end;
+
+            }
+        }
+
+    }
+}
