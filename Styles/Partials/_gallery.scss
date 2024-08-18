@@ -102,6 +102,34 @@
 }
 
 //END SMALL TABLET BREAKPOINT 
+@media (min-width: 768px) {
+    #galleryClasesMain {
+        margin-top: 10rem;
+        background-color: $colorPrimario;
+
+        .galeriaContenedor {
+            background-size: 100%;
+            padding-top: 18rem;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            border-radius: 10px;
+        }
+    }
+
+    // OJO SE SEPARARON LAS GALERÍAS PARA MANTENER PROPORCIONALIDAD EN EL MARGIN RIGHT Y LEFT
+    #galleryCompeticionMain {
+        margin-top: 10rem;
+        background-color: $colorPrimario;
+
+        .galeriaContenedor {
+            background-size: 100%;
+            padding-top: 18rem;
+            margin-right: 3rem;
+            margin-left: 3rem;
+            border-radius: 10px;
+        }
+    }
+}
 
 
 
@@ -125,8 +153,8 @@
         .galeriaContenedor {
             background-size: 100%;
             padding-top: 18rem;
-            margin-right: 22rem;
-            margin-left: 22rem;
+            margin-right: 20rem;
+            margin-left: 20rem;
             border-radius: 10px;
         }
     }
@@ -139,9 +167,11 @@
         .galeriaContenedor {
             background-size: 100%;
             padding-top: 18rem;
-            margin-right: 35rem;
-            margin-left: 35rem;
+            margin-right: 30rem;
+            margin-left: 30rem;
             border-radius: 10px;
         }
     }
+
+
 }

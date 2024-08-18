@@ -701,6 +701,30 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     background-color: #2e2e2e;
   }
 }
+@media (min-width: 768px) {
+  #galleryClasesMain {
+    margin-top: 10rem;
+    background-color: #2e2e2e;
+  }
+  #galleryClasesMain .galeriaContenedor {
+    background-size: 100%;
+    padding-top: 18rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  #galleryCompeticionMain {
+    margin-top: 10rem;
+    background-color: #2e2e2e;
+  }
+  #galleryCompeticionMain .galeriaContenedor {
+    background-size: 100%;
+    padding-top: 18rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+  }
+}
 @media (min-width: 1200px) {
   #galleryMain {
     margin-top: 12rem;
@@ -717,8 +741,8 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   #galleryClasesMain .galeriaContenedor {
     background-size: 100%;
     padding-top: 18rem;
-    margin-right: 22rem;
-    margin-left: 22rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
     border-radius: 10px;
   }
   #galleryCompeticionMain {
@@ -728,8 +752,8 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   #galleryCompeticionMain .galeriaContenedor {
     background-size: 100%;
     padding-top: 18rem;
-    margin-right: 34rem;
-    margin-left: 34rem;
+    margin-right: 30rem;
+    margin-left: 30rem;
     border-radius: 10px;
   }
 }
