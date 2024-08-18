@@ -71,20 +71,32 @@
         }
     }
 
-    #bloqueNovedades {
-        background: linear-gradient(90deg, $colorSecundario 0%, $colorTerceario 45%, $colorSecundario 100%);
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+    .contenedorCertificadoNovedades {
 
-        #novedades {
-            @extend %fuenteTitulo;
-            font-size: 3rem;
+        .certificado {
+            .imgCertificado {
+                width: 100%;
+                padding: 10px;
+                margin-right: auto;
+                margin-left: auto;
+            }
         }
 
-        .carousel {
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 2rem;
+        #bloqueNovedades {
+            background: linear-gradient(90deg, $colorSecundario 0%, $colorTerceario 45%, $colorSecundario 100%);
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            #novedades {
+                @extend %fuenteTitulo;
+                font-size: 3rem;
+            }
+
+            .carousel {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2rem;
+            }
         }
     }
 }
@@ -153,10 +165,29 @@
             }
         }
 
-        #novedades {
-            font-size: 3rem;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+        .contenedorCertificadoNovedades {
+            justify-content: space-around;
+
+            .certificado {
+                padding: 2rem;
+            }
+
+
+            #bloqueNovedades {
+                background: none;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+
+                #novedades {
+                    font-size: 2rem;
+                    margin-top: 0rem;
+                    margin-bottom: 1rem;
+                }
+
+                .carousel {
+                    width: 80%;
+                }
+            }
         }
     }
 }
@@ -227,13 +258,20 @@
             }
         }
 
-        #novedades {
-            font-size: 2rem;
-        }
+        .contenedorCertificadoNovedades {
+            background-color: $colorTerceario;
 
-        .carousel {
-            margin-left: auto;
-            width: 40%;
+            #bloqueNovedades {
+                #novedades {
+                    font-size: 2rem;
+                    padding-bottom: 2rem;
+                }
+
+                .carousel {
+                    margin-left: auto;
+                    height: 80%;
+                }
+            }
         }
     }
 }

@@ -8,7 +8,7 @@
   background-size: 100%;
 }
 
-#galleryMain .sectorGaleriaTexto .sectorGaleriaTextoLink, .mainBody #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
+#galleryMain .sectorGaleriaTexto .sectorGaleriaTextoLink, .mainBody .contenedorCertificadoNovedades #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
   color: #eeeeee;
   font-weight: bold;
   text-align: center;
@@ -214,15 +214,21 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto {
   font-size: 1rem;
 }
-.mainBody #bloqueNovedades {
+.mainBody .contenedorCertificadoNovedades .certificado .imgCertificado {
+  width: 100%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mainBody .contenedorCertificadoNovedades #bloqueNovedades {
   background: linear-gradient(90deg, #151515 0%, #545454 45%, #151515 100%);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.mainBody #bloqueNovedades #novedades {
+.mainBody .contenedorCertificadoNovedades #bloqueNovedades #novedades {
   font-size: 3rem;
 }
-.mainBody #bloqueNovedades .carousel {
+.mainBody .contenedorCertificadoNovedades #bloqueNovedades .carousel {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
@@ -258,10 +264,24 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto {
     font-size: 2rem;
   }
-  .mainBody #novedades {
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  .mainBody .contenedorCertificadoNovedades {
+    justify-content: space-around;
+  }
+  .mainBody .contenedorCertificadoNovedades .certificado {
+    padding: 2rem;
+  }
+  .mainBody .contenedorCertificadoNovedades #bloqueNovedades {
+    background: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .mainBody .contenedorCertificadoNovedades #bloqueNovedades #novedades {
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  .mainBody .contenedorCertificadoNovedades #bloqueNovedades .carousel {
+    width: 80%;
   }
 }
 @media (min-width: 1200px) {
@@ -308,12 +328,16 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto {
     font-size: 24px;
   }
-  .mainBody #novedades {
-    font-size: 2rem;
+  .mainBody .contenedorCertificadoNovedades {
+    background-color: #545454;
   }
-  .mainBody .carousel {
+  .mainBody .contenedorCertificadoNovedades #bloqueNovedades #novedades {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .mainBody .contenedorCertificadoNovedades #bloqueNovedades .carousel {
     margin-left: auto;
-    width: 40%;
+    height: 80%;
   }
 }
 @media (min-width: 1400px) {
