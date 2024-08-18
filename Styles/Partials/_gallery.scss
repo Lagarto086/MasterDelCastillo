@@ -118,8 +118,7 @@
         }
     }
 
-    #galleryClasesMain,
-    #galleryCompeticionMain {
+    #galleryClasesMain {
         margin-top: 10rem;
         background-color: $colorPrimario;
 
@@ -128,6 +127,20 @@
             padding-top: 18rem;
             margin-right: 22rem;
             margin-left: 22rem;
+            border-radius: 10px;
+        }
+    }
+
+    // OJO SE SEPARARON LAS GALERÍAS PARA MANTENER PROPORCIONALIDAD EN EL MARGIN RIGHT Y LEFT
+    #galleryCompeticionMain {
+        margin-top: 10rem;
+        background-color: $colorPrimario;
+
+        .galeriaContenedor {
+            background-size: 100%;
+            padding-top: 18rem;
+            margin-right: 35rem;
+            margin-left: 35rem;
             border-radius: 10px;
         }
     }

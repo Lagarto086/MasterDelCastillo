@@ -710,17 +710,26 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   #galleryMain .sectorGaleriaTextoParrafo {
     font-size: 24px;
   }
-  #galleryClasesMain,
-  #galleryCompeticionMain {
+  #galleryClasesMain {
     margin-top: 10rem;
     background-color: #2e2e2e;
   }
-  #galleryClasesMain .galeriaContenedor,
-  #galleryCompeticionMain .galeriaContenedor {
+  #galleryClasesMain .galeriaContenedor {
     background-size: 100%;
     padding-top: 18rem;
     margin-right: 22rem;
     margin-left: 22rem;
+    border-radius: 10px;
+  }
+  #galleryCompeticionMain {
+    margin-top: 10rem;
+    background-color: #2e2e2e;
+  }
+  #galleryCompeticionMain .galeriaContenedor {
+    background-size: 100%;
+    padding-top: 18rem;
+    margin-right: 35rem;
+    margin-left: 35rem;
     border-radius: 10px;
   }
 }
