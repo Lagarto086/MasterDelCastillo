@@ -1,5 +1,4 @@
 // MOBILE FIRST
-
 .mainBody {
     background-color: $colorPrimario;
     justify-items: center;
@@ -31,7 +30,6 @@
     }
 
     .navegacion {
-
         padding-top: 1rem;
         padding-bottom: 2rem;
         padding-left: 2rem;
@@ -75,13 +73,12 @@
 
     #bloqueNovedades {
         background: linear-gradient(90deg, $colorSecundario 0%, $colorTerceario 45%, $colorSecundario 100%);
-        ;
         padding-top: 2rem;
         padding-bottom: 2rem;
 
         #novedades {
             @extend %fuenteTitulo;
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         .carousel {
@@ -97,27 +94,45 @@
 
 
 //SMALL TABLET BREAKPOINT 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .mainBody {
+        #headerMain {
+            .subHeaderMain {
+                #mainTitle {
+                    font-size: 2rem;
+                }
+
+                #mainIcon {
+                    height: 8rem;
+                    width: auto;
+                }
+            }
+        }
+
+        .navegacion {
+            .botonMain {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
 //END SMALL TABLET BREAKPOINT 
 
 
 
 //LARGE TABLET BREAKPOINT 
-
 @media (min-width: 768px) {
-
     .mainBody {
-
-        .mainImage {
-            height: 26rem;
-        }
-
         #headerMain {
-
             .subHeaderMain {
-
-                .mainTitle {
+                #mainTitle {
                     font-size: 3rem;
+                }
+
+                #mainIcon {
+                    height: 10rem;
+                    width: auto;
                 }
             }
         }
@@ -152,8 +167,21 @@
 
 //SMALL DESKTOP BREAKPOINT 
 @media (min-width: 1200px) {
-
     .mainBody {
+        #headerMain {
+            .subHeaderMain {
+                justify-content: space-between;
+
+                #mainTitle {
+                    font-size: 3rem;
+                }
+
+                #mainIcon {
+                    height: 8rem;
+                    width: auto;
+                }
+            }
+        }
 
         .mainImage {
             padding-bottom: 36rem;
@@ -164,7 +192,6 @@
             grid-template-areas:
                 "navegacion federacionContenedor";
             grid-template-columns: 37% 63%;
-
         }
 
         .navegacion {
@@ -176,9 +203,7 @@
                 justify-content: space-between;
 
                 .botonMain {
-                    height: 4rem;
-                    padding: 1rem;
-                    margin-bottom: 0px;
+                    height: 5rem;
                 }
             }
         }
@@ -227,17 +252,16 @@
 
         #headerMain {
             .subHeaderMain {
-
                 justify-content: space-around;
                 padding-top: 3rem;
                 padding-bottom: 0rem;
 
                 #mainIcon {
-                    height: 15rem;
+                    height: 12rem;
                     width: auto;
                 }
 
-                .mainTitle {
+                #mainTitle {
                     font-size: 4rem;
                 }
             }

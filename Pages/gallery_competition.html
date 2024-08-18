@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../Styles/style.css">
 
     <title> Master del Castillo - Galeria - Competiciones</title>
@@ -17,233 +16,61 @@
 <body id="galleryCompeticionMain">
     <main class="">
 
-    <!-- INICIO DE HEADER -->
-    <header>
-        <!-- HAMBURGUESA -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="../index.html">
-                <img class="navbar-imagen" src="../Multimedia/Icons/LogoJDC3Inverted_noname.png"></img>
-                Master Del Castillo
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="..//../index.html">Inicio </a>
-                    </li>
-                    <li class="nav-item" active>
-                        <a class="nav-link nav-link-activo" href="..//../about.html">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <section class="galeriaContenedor sectorCompeticionGaleriaUno row">
-        <h1 class="galeriaTitulo">Open ITF Uruguay</h1>
-        <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria1">Abrir Galeria</a>
-
-        <!-- MODAL GALERIA 1 -->
-        <div tabindex="-1" aria-labelledby="modalGaleria1" aria-hidden="true" class="modal fade" id="modalGaleria1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <!-- START CAROUSEL -->
-                    <div id="carouselExampleAutoplayingOne" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería3/1.jpg"
-                                    class="d-block w-100" alt="..."></div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería3/2.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleAutoplayingOne" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleAutoplayingOne" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!-- END CAROUSEL -->
+        <!-- INICIO DE HEADER -->
+        <header>
+            <!-- HAMBURGUESA -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="navbar-imagen" src="../Multimedia/Icons/LogoJDC3Inverted_noname.png"></img>
+                    Master Del Castillo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio </a>
+                        </li>
+                        <li class="nav-item" active>
+                            <a class="nav-link " href="./about.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./contact.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- END MODAL GALERIA 1 -->
+            </nav>
+        </header>
 
+        <section class="galeriaContenedor sectorCompeticionGaleriaUno row">
+            <h1 class="galeriaTitulo">Open ITF Uruguay</h1>
+            <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria1">Abrir Galeria</a>
 
-    <section class="galeriaContenedor sectorCompeticionGaleriaDos row">
-        <h1 class="galeriaTitulo">Sudamericano - Santiago de Chile 2022</h1>
-        <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria2">Abrir Galeria</a>
-
-        <!-- MODAL GALERIA 2 -->
-        <div tabindex="-1" aria-labelledby="modalGaleria2" aria-hidden="true" class="modal fade" id="modalGaleria2">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <!-- START CAROUSEL -->
-                    <div id="carouselExampleAutoplayingTwo" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería4/1.jpg"
-                                    class="d-block w-100" alt="..."></div>
-
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/2.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/3.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/4.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/5.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/6.jpg"
-                                    class="d-block w-100" alt="..."></div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/7.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/8.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleAutoplayingTwo" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleAutoplayingTwo" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!-- END CAROUSEL -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END MODAL GALERIA 2 -->
-
-
-    <section class="galeriaContenedor sectorCompeticionGaleriaTres row">
-        <h1 class="galeriaTitulo">Campeonato Mundial - Argentina 2023</h1>
-        <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria3">Abrir
-            Galeria</a>
-
-        <!-- MODAL GALERIA 2 -->
-        <div tabindex="-1" aria-labelledby="modalGaleria3" aria-hidden="true" class="modal fade" id="modalGaleria3">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <!-- START CAROUSEL -->
-                    <div id="carouselExampleAutoplayingThree" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería5/1.jpg"
-                                    class="d-block w-100" alt="..."></div>
-
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/2.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/3.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/4.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/5.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/6.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/7.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/8.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/9.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/10.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/11.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/12.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/13.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/14.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/15.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/16.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/17.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/18.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/19.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/20.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/21.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/22.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/23.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/24.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/25.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/26.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/27.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/28.jpg"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/29.jpg"
-                                    class="d-block w-100" alt="...">
+            <!-- MODAL GALERIA 1 -->
+            <div tabindex="-1" aria-labelledby="modalGaleria1" aria-hidden="true" class="modal fade" id="modalGaleria1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- START CAROUSEL -->
+                        <div id="carouselExampleAutoplayingOne" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería3/1.jpg"
+                                        class="d-block w-100" alt="..."></div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería3/2.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleAutoplayingThree" data-bs-slide="prev">
+                                data-bs-target="#carouselExampleAutoplayingOne" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleAutoplayingThree" data-bs-slide="next">
+                                data-bs-target="#carouselExampleAutoplayingOne" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -252,41 +79,213 @@
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- END MODAL GALERIA 3 -->
-
-    <!-- PIE DE PAGINA -->
-    <footer class="mw-100 container">
-        <div class="row">
-            <img id="footerFederation" class="col-12 col-xl-4" src="../Multimedia/Icons/ITF_CHAN_HUN.png"></img>
-            <p id="footerTexto" class="col-12 col-xl-8">Sul-Sa, es una Academia de Taekwon-do
-                con Sede en
-                Uruguay,
-                avalada y
-                autorizada por la ITF
-                CHIFT Presidida por
-                S.G.M. Phap Lu
-            </p>
-        </div>
-        <section class="row" id="footerRedes">
-            <a class="col-3 footerBotonRedes" href="https://www.facebook.com/javier.delcastillogimenez">
-                <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/facebook.png"></a>
-            <a class="col-3 footerBotonRedes" href="https://www.youtube.com/@DELKASULSA"> <img
-                    class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/youtube.png"></a>
-            <a class="col-3 footerBotonRedes" href="https://www.instagram.com/masterdelcastillo_1/">
-                <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/instagram.png"></a>
-            <a class="col-3 footerBotonRedes"
-                href="https://api.whatsapp.com/send/?phone=59892455751&text&type=phone_number&app_absent=0">
-                <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/whatsapp.png"></a>
-            <!-- <a class="col-2 footerBotonRedes"> <img class="footerBotonRedesImg"
-                            src="./Multimedia/Icons/Redes/gmail.png"></a> -->
         </section>
-    </footer>
+        <!-- END MODAL GALERIA 1 -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        <section class="galeriaContenedor sectorCompeticionGaleriaDos row">
+            <h1 class="galeriaTitulo">Sudamericano - Santiago de Chile 2022</h1>
+            <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria2">Abrir Galeria</a>
+
+            <!-- MODAL GALERIA 2 -->
+            <div tabindex="-1" aria-labelledby="modalGaleria2" aria-hidden="true" class="modal fade" id="modalGaleria2">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- START CAROUSEL -->
+                        <div id="carouselExampleAutoplayingTwo" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería4/1.jpg"
+                                        class="d-block w-100" alt="..."></div>
+
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/2.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/3.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/4.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/5.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/6.jpg"
+                                        class="d-block w-100" alt="..."></div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/7.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería4/8.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplayingTwo" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplayingTwo" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- END CAROUSEL -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END MODAL GALERIA 2 -->
+
+
+        <section class="galeriaContenedor sectorCompeticionGaleriaTres row">
+            <h1 class="galeriaTitulo">Campeonato Mundial - Argentina 2023</h1>
+            <a class="botonGaleria" href="#!" data-bs-toggle="modal" data-bs-target="#modalGaleria3">Abrir
+                Galeria</a>
+
+            <!-- MODAL GALERIA 2 -->
+            <div tabindex="-1" aria-labelledby="modalGaleria3" aria-hidden="true" class="modal fade" id="modalGaleria3">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- START CAROUSEL -->
+                        <div id="carouselExampleAutoplayingThree" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"><img src="../Multimedia/Gallery/Galería5/1.jpg"
+                                        class="d-block w-100" alt="..."></div>
+
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/2.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/3.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/4.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/5.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/6.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/7.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/8.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/9.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/10.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/11.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/12.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/13.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/14.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/15.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/16.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/17.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/18.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/19.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/20.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/21.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/22.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/23.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/24.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/25.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/26.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/27.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/28.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item"> <img src="../Multimedia/Gallery/Galería5/29.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleAutoplayingThree" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleAutoplayingThree" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- END CAROUSEL -->
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- END MODAL GALERIA 3 -->
+
+        <!-- PIE DE PAGINA -->
+        <footer class="mw-100 container">
+            <div class="row">
+                <img id="footerFederation" class="col-12 col-xl-4" src="../Multimedia/Icons/ITF_CHAN_HUN.png"></img>
+                <p id="footerTexto" class="col-12 col-xl-8">Sul-Sa, es una Academia de Taekwon-do
+                    con Sede en
+                    Uruguay,
+                    avalada y
+                    autorizada por la ITF
+                    CHIFT Presidida por
+                    S.G.M. Phap Lu
+                </p>
+            </div>
+            <section class="row" id="footerRedes">
+                <a class="col-3 footerBotonRedes" href="https://www.facebook.com/javier.delcastillogimenez">
+                    <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/facebook.png"></a>
+                <a class="col-3 footerBotonRedes" href="https://www.youtube.com/@DELKASULSA"> <img
+                        class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/youtube.png"></a>
+                <a class="col-3 footerBotonRedes" href="https://www.instagram.com/masterdelcastillo_1/">
+                    <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/instagram.png"></a>
+                <a class="col-3 footerBotonRedes"
+                    href="https://api.whatsapp.com/send/?phone=59892455751&text&type=phone_number&app_absent=0">
+                    <img class="footerBotonRedesImg" src="../Multimedia/Icons/Redes/whatsapp.png"></a>
+                <!-- <a class="col-2 footerBotonRedes"> <img class="footerBotonRedesImg"
+                            src="./Multimedia/Icons/Redes/gmail.png"></a> -->
+            </section>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

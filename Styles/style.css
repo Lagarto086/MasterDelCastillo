@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .mainBody .mainImage {
-  background-image: url(../../Multimedia/Main/mainS.jpg);
+  background-image: url("../Multimedia/main/mainS.jpg");
   height: 16rem;
   background-attachment: fixed;
   background-position: top;
@@ -8,7 +8,7 @@
   background-size: 100%;
 }
 
-#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoLink, .mainBody #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
+#galleryMain .sectorGaleriaTexto .sectorGaleriaTextoLink, .mainBody #bloqueNovedades #novedades, .mainBody .federacionContenedor .federacionSubContenedor #federacionTexto, .mainBody #headerMain .subHeaderMain .mainTitle {
   color: #eeeeee;
   font-weight: bold;
   text-align: center;
@@ -30,6 +30,18 @@
 
 .navbar .navbar-brand .navbar-imagen {
   height: 4rem;
+}
+.navbar .navbar-toggler {
+  margin-right: 1rem;
+}
+.navbar .collapse .navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #eeeeee;
+}
+.navbar .collapse .navbar-nav .nav-item .disabled {
+  color: #383838;
 }
 
 @media (min-width: 576px) {
@@ -208,7 +220,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   padding-bottom: 2rem;
 }
 .mainBody #bloqueNovedades #novedades {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .mainBody #bloqueNovedades .carousel {
   margin-left: auto;
@@ -216,12 +228,25 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 768px) {
-  .mainBody .mainImage {
-    height: 26rem;
+@media (min-width: 576px) {
+  .mainBody #headerMain .subHeaderMain #mainTitle {
+    font-size: 2rem;
   }
-  .mainBody #headerMain .subHeaderMain .mainTitle {
+  .mainBody #headerMain .subHeaderMain #mainIcon {
+    height: 8rem;
+    width: auto;
+  }
+  .mainBody .navegacion .botonMain {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .mainBody #headerMain .subHeaderMain #mainTitle {
     font-size: 3rem;
+  }
+  .mainBody #headerMain .subHeaderMain #mainIcon {
+    height: 10rem;
+    width: auto;
   }
   .mainBody .botonMain {
     align-content: center;
@@ -240,6 +265,16 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   }
 }
 @media (min-width: 1200px) {
+  .mainBody #headerMain .subHeaderMain {
+    justify-content: space-between;
+  }
+  .mainBody #headerMain .subHeaderMain #mainTitle {
+    font-size: 3rem;
+  }
+  .mainBody #headerMain .subHeaderMain #mainIcon {
+    height: 8rem;
+    width: auto;
+  }
   .mainBody .mainImage {
     padding-bottom: 36rem;
   }
@@ -257,9 +292,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     justify-content: space-between;
   }
   .mainBody .navegacion .subNavegacion .botonMain {
-    height: 4rem;
-    padding: 1rem;
-    margin-bottom: 0px;
+    height: 5rem;
   }
   .mainBody .federacionContenedor {
     margin-top: auto;
@@ -293,10 +326,10 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     padding-bottom: 0rem;
   }
   .mainBody #headerMain .subHeaderMain #mainIcon {
-    height: 15rem;
+    height: 12rem;
     width: auto;
   }
-  .mainBody #headerMain .subHeaderMain .mainTitle {
+  .mainBody #headerMain .subHeaderMain #mainTitle {
     font-size: 4rem;
   }
   .mainBody #grilla {
@@ -379,13 +412,13 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 #acercaMain #academiasSection .card .cardText {
   background-color: #bbbbbb;
 }
-#acercaMain #academiasSection .tituloAcademia {
+#acercaMain #academiasSection .card .tituloAcademia {
   font-size: 24px;
   text-align: center;
   color: #383838;
   font-weight: bolder;
 }
-#acercaMain #academiasSection .instructorAcademia {
+#acercaMain #academiasSection .card .instructorAcademia {
   text-align: center;
   font-size: 20px;
   color: #383838;
@@ -501,15 +534,21 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     justify-content: space-around;
   }
   #acercaMain #academiasSection .card {
-    width: 45%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 30%;
     padding: 0px;
+    margin: 10px;
   }
   #acercaMain #academiasSection .card .cardImagen {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+  }
+  #acercaMain #academiasSection .card .cardText {
+    height: 12rem;
+  }
+  #acercaMain #academiasSection .card .cardText .tituloAcademia,
+  #acercaMain #academiasSection .card .cardText .instructorAcademia {
+    font-size: 15px;
   }
 }
 @media (min-width: 1400px) {
@@ -560,38 +599,36 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
     margin-bottom: 2rem;
   }
   #acercaMain #academiasDiv #academiasSection .card .cardText {
-    height: 20rem;
+    height: 15rem;
   }
   #acercaMain #academiasDiv #academiasSection .card .tituloAcademia {
-    font-size: 2rem;
+    font-size: 30px;
   }
   #acercaMain #academiasDiv #academiasSection .card .instructorAcademia,
   #acercaMain #academiasDiv #academiasSection .card .ubicacionAcademia {
-    font-size: 24px;
+    font-size: 20px;
   }
   #acercaMain #academiasDiv #academiasSection .card .cardRedes .cardSubRedes .cardLogoRedes {
-    height: 5rem;
+    height: 3rem;
   }
 }
 #galleryMain {
   color: #eeeeee;
   background-color: #2e2e2e;
-}
-#galleryMain .sectorGaleria {
   margin-top: 4rem;
   padding: 1rem;
 }
-#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoLink {
+#galleryMain .sectorGaleriaTexto .sectorGaleriaTextoLink {
   text-decoration: none;
   color: #eeeeee;
   font-size: 24px;
 }
-#galleryMain .sectorGaleria .sectorGaleriaTexto .sectorGaleriaTextoParrafo {
+#galleryMain .sectorGaleriaTexto .sectorGaleriaTextoParrafo {
   text-indent: 2rem;
   margin-top: 2rem;
   text-align: justify;
 }
-#galleryMain .sectorGaleria .sectorGaleriaImagenLink {
+#galleryMain .sectorGaleriaImagenLink {
   width: 100%;
 }
 
@@ -632,26 +669,61 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 }
 #galleryClasesMain .sectorClasesGaleriaUno,
 #galleryCompeticionMain .sectorClasesGaleriaUno {
-  background-image: url("../../Multimedia/Gallery/Galería1/main.jpg");
+  background-image: url("../Multimedia/Gallery/Galería1/main.jpg");
   margin-top: 8rem;
 }
 #galleryClasesMain .sectorClasesGaleriaDos,
 #galleryCompeticionMain .sectorClasesGaleriaDos {
-  background-image: url("../../Multimedia/Gallery/Galería2/main.jpg");
+  background-image: url("../Multimedia/Gallery/Galería2/main.jpg");
 }
 #galleryClasesMain .sectorCompeticionGaleriaUno,
 #galleryCompeticionMain .sectorCompeticionGaleriaUno {
-  background-image: url("../../Multimedia/Gallery/Galería3/2.jpg");
+  background-image: url("../Multimedia/Gallery/Galería3/2.jpg");
 }
 #galleryClasesMain .sectorCompeticionGaleriaDos,
 #galleryCompeticionMain .sectorCompeticionGaleriaDos {
-  background-image: url("../../Multimedia/Gallery/Galería4/1.jpg");
+  background-image: url("../Multimedia/Gallery/Galería4/1.jpg");
 }
 #galleryClasesMain .sectorCompeticionGaleriaTres,
 #galleryCompeticionMain .sectorCompeticionGaleriaTres {
-  background-image: url("../../Multimedia/Gallery/Galería5/main.jpg");
+  background-image: url("../Multimedia/Gallery/Galería5/main.jpg");
 }
 
+@media (min-width: 576px) {
+  #galleryMain {
+    margin-top: 8rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  #galleryClasesMain,
+  #galleryCompeticionMain {
+    margin-top: 10rem;
+    background-color: #2e2e2e;
+  }
+}
+@media (min-width: 1200px) {
+  #galleryMain {
+    margin-top: 12rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  #galleryMain .sectorGaleriaTextoParrafo {
+    font-size: 24px;
+  }
+  #galleryClasesMain,
+  #galleryCompeticionMain {
+    margin-top: 10rem;
+    background-color: #2e2e2e;
+  }
+  #galleryClasesMain .galeriaContenedor,
+  #galleryCompeticionMain .galeriaContenedor {
+    background-size: 100%;
+    padding-top: 18rem;
+    margin-right: 22rem;
+    margin-left: 22rem;
+    border-radius: 10px;
+  }
+}
 #contactMain {
   color: #eeeeee;
   background-color: #2e2e2e;
@@ -676,6 +748,22 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   text-align: end;
 }
 
+@media (min-width: 1200px) {
+  #contactMain .container .contactBody {
+    margin-top: 14rem;
+  }
+  #contactMain .container .contactBody .tituloPrimario {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #contactMain .container .datos .subTitulo {
+    font-size: 2rem;
+  }
+  #contactMain .container .datos .subDato {
+    font-size: 24px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

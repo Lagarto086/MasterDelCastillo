@@ -28,7 +28,6 @@
             }
 
             .contenedorBtnLenguaje {
-
                 justify-content: space-around;
 
                 .btnLenguaje {
@@ -80,20 +79,21 @@
             .cardText {
                 background-color: $colorCuaternario;
             }
-        }
 
-        .tituloAcademia {
-            font-size: 24px;
-            text-align: center;
-            color: $colorFuenteTerceario;
-            font-weight: bolder;
-        }
 
-        .instructorAcademia {
-            text-align: center;
-            font-size: 20px;
-            color: $colorFuenteTerceario;
-            font-weight: bold;
+            .tituloAcademia {
+                font-size: 24px;
+                text-align: center;
+                color: $colorFuenteTerceario;
+                font-weight: bolder;
+            }
+
+            .instructorAcademia {
+                text-align: center;
+                font-size: 20px;
+                color: $colorFuenteTerceario;
+                font-weight: bold;
+            }
         }
 
         .cardRedes {
@@ -252,16 +252,23 @@
             justify-content: space-around;
 
             .card {
-                width: 45%;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
+                width: 30%;
                 padding: 0px;
+                margin: 10px;
 
                 .cardImagen {
+                    width: 80%;
                     margin-left: auto;
                     margin-right: auto;
-                    width: 20rem;
+                }
 
+                .cardText {
+                    height: 12rem;
+
+                    .tituloAcademia,
+                    .instructorAcademia {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -358,16 +365,16 @@
                     }
 
                     .cardText {
-                        height: 20rem;
+                        height: 15rem;
                     }
 
                     .tituloAcademia {
-                        font-size: 2rem;
+                        font-size: 30px;
                     }
 
                     .instructorAcademia,
                     .ubicacionAcademia {
-                        font-size: 24px;
+                        font-size: 20px;
                     }
 
 
@@ -376,7 +383,7 @@
                         .cardSubRedes {
 
                             .cardLogoRedes {
-                                height: 5rem;
+                                height: 3rem;
                             }
                         }
                     }

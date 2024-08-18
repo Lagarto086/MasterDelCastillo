@@ -5,6 +5,26 @@
             height: 4rem;
         }
     }
+
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .collapse {
+        .navbar-nav {
+            .nav-item {
+                margin-left: 1rem;
+
+                .nav-link {
+                    color: $colorFuentePrimario;
+                }
+
+                .disabled {
+                    color: $colorFuenteTerceario;
+                }
+            }
+        }
+    }
 }
 
 //END MOBILE FIRST
@@ -44,6 +64,7 @@
 
         .collapse {
             justify-content: end;
+
 
             .navbar-nav {
                 .nav-item {

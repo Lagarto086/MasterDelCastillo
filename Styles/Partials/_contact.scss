@@ -11,10 +11,6 @@
             margin-bottom: 2rem;
         }
 
-        .mapaContainer {
-            .mapa {}
-        }
-
         .datos {
             margin-top: 4rem;
             text-align: start;
@@ -27,9 +23,37 @@
 
             .subDato {
                 text-align: end;
-
             }
         }
-
     }
 }
+
+//SMALL DESKTOP BREAKPOINT
+@media (min-width: 1200px) {
+    #contactMain {
+
+        .container {
+            .contactBody {
+                margin-top: 14rem;
+
+                .tituloPrimario {
+                    font-size: 3rem;
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .datos {
+                .subTitulo {
+                    font-size: 2rem;
+                }
+
+                .subDato {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+//END SMALL DESKTOP BREAKPOINT
