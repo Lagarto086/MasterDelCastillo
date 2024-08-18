@@ -476,6 +476,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   color: #eeeeee;
 }
 #acercaMain .videoYT {
+  height: 100%;
   width: 100%;
   margin-top: 2rem;
   margin-left: auto;
