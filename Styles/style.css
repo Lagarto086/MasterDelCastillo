@@ -476,9 +476,11 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
   color: #eeeeee;
 }
 #acercaMain .videoYT {
+  width: 100%;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem;
 }
 #acercaMain .contenedorLogros {
   background-color: #545454;
