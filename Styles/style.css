@@ -477,8 +477,7 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 }
 #acercaMain .videoYT {
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 177%;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
