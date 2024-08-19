@@ -43,7 +43,7 @@
                     padding-top: 1rem;
                     padding-bottom: 1rem;
 
-                    .btnLenguajeTexto {}
+                    // .btnLenguajeTexto {}
                 }
             }
         }
@@ -222,8 +222,12 @@
                 }
 
                 .acercaImagenTexto {
+                    margin-left: 5rem;
+                    margin-right: 5rem;
+                    padding-right: 5rem;
+                    padding-left: 5rem;
                     height: auto;
-                    width: 100%;
+                    width: 90%;
                 }
             }
         }
