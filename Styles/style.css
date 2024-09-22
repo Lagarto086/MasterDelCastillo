@@ -712,6 +712,11 @@ footer #footerRedes .footerBotonRedes .footerBotonRedesImg {
 #galleryCompeticionMain .sectorClasesGaleriaDos {
   background-image: url("../Multimedia/Gallery/Galería2/main.jpg");
 }
+#galleryClasesMain .sectorClasesGaleriaTres,
+#galleryCompeticionMain .sectorClasesGaleriaTres {
+  background-image: url("../Multimedia/Gallery/Galería6/main.jpg");
+  margin-top: 8rem;
+}
 #galleryClasesMain .sectorCompeticionGaleriaUno,
 #galleryCompeticionMain .sectorCompeticionGaleriaUno {
   background-image: url("../Multimedia/Gallery/Galería3/2.jpg");
